@@ -1,7 +1,24 @@
 
 <nav class="nav">
   <div class="container">
-    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}<span>{{ site.title2 }}</span></a></h1>
+    <a href="/" class="avatar">
+      <img src="{{site.author.thumb}}" height="65" width="65"/>
+    </a>
+    <h1 class="logo">
+      <a href="{{ '/' | prepend: site.baseurl }}">{{ site.title }}<span>{{ site.title2 }}</span></a>
+    </h1>
+    <br/>
+    <section class="meta">
+      <a href="{{site.author.github}}" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub">
+        <i class="fa fa-github"></i>
+      </a>
+      <a href="{{site.author.twitter}}" target="_blank" title="Follow me on Twitter" aria-label="Follow me on GitHub">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="{{site.author.linkedin}}" target="_blank" title="Connect with me on LinkedIn" aria-label="Follow me on GitHub">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </section>
     <ul class="navbar">
       <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
       <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">RSS</a></li>

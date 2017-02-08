@@ -8,11 +8,11 @@ url: http://ausiddiqui.github.io/ # site url
 # baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
 baseurl: null # apply null if repo name is something like username.github.io
 
-google_analytics: UA-XXXXX-XX
+google_analytics: UA-91621138-1
 repo: http://github.com/ausiddiqui
 disqus_shortname: #"heiswayi"
 twitter_username: "jaatah"
-comments: true 
+comments: false
 
 # Build settings
 permalink   : /:year/:title/
@@ -34,11 +34,11 @@ author:
   bio      : ""
   thumb    : https://pbs.twimg.com/profile_images/829179497723240448/tn5WTxwJ_400x400.jpg
   email    : ausiddiqui@gmail.com
-  url      : http://ausiddiqui.github.io
-  github   : http://github.com/ausiddiqui
-  twitter  : http://twitter.com/jaatah
-  facebook : 
-  linkedin : http://linkedin.com/in/ausiddiqui
+  url      : https://ausiddiqui.github.io
+  github   : https://github.com/ausiddiqui
+  twitter  : https://twitter.com/jaatah
+  facebook :
+  linkedin : https://linkedin.com/in/ausiddiqui
 
 # social settings
 og_locale: "en_US"

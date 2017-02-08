@@ -71,7 +71,14 @@ hr {
 .site-header {
   border-bottom: 1px solid lighten($light-gray-color, 5%);
   margin-bottom: $small-spacing;
-  min-height: 80px;
+  min-height: 100px;
+}
+
+.avatar{
+  float: left;
+  width: 65px;
+  height: 65px;
+  top: 0px;
 }
 
 .intro {
@@ -98,10 +105,18 @@ hr {
   font-size: 20px;
   line-height: 28px;
   font-weight: 300;
+  padding-left: 10px;
+  padding-top: 8px;
 
   span {
     font-weight: 700;
   }
+}
+
+.meta {
+  float: left;
+  margin-left: -128px;
+  padding-top: 8px
 }
 
 .nav {
